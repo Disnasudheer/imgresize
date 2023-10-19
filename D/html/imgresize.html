@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="../css/imgresize.css" />
+<title>Document</title>
+</head>
+<body>
+<h2>HTML Forms</h2>
+<div class="center">
+<form>
+<label>Height:</label>
+<input
+type="text"
+id="hpx"
+placeholder="Height in pixel "
+oninput="heightpx()"
+/>
+<input
+type="text"
+id="hpercent"
+placeholder="Height in percentage "
+oninput="heightper()"
+/><br />
+<label for="lname">Width:</label>
+<input 
+type="text" 
+id="wpx" 
+name="lname"
+ placeholder="Width in pixel" 
+ oninput="widthpx()"
+ />
+<input
+type="text"
+id="wpercent"
+name="lname"
+placeholder="Width in percentage"
+oninput="widthper()"
+/>
+<br />
+</form>
+</div>
+<div id="image">
+<img id="img" src="../images/th1.jpg" />
+</div>
+<script src="../js/imgresize1.js"></script>
+</body>
+</html>
+
+
